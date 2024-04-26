@@ -12,6 +12,7 @@ class PostController extends Controller
     {
         return view('posts.create');
     }
+
     public function store(Request $request)
     {
         $this->validate($request, [
